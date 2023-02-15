@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">info_ganaderia</string>
+    <string name="btn_txt_iniciar_sesion">Iniciar Sesión</string>
+    <string name="btn_txt_registrarse">Registrarse</string>
+</resources>
