@@ -2,4 +2,14 @@
     <string name="app_name">info_ganaderia</string>
     <string name="btn_txt_iniciar_sesion">Iniciar Sesión</string>
     <string name="btn_txt_registrarse">Registrarse</string>
+    <string name="btn_noticias">Noticias</string>
+    <string name="btn_tipos">Tipos de ganadería</string>
+    <string name="btn_consejos">Consejos</string>
+    <string name="btn_razas">Razas de ganado</string>
+    <string name="btn_libros">Libros gratis</string>
+    <string name="descripción_noticias">Las últimas noticias sobre ganadería</string>
+    <string name="descripción_consejos">¡Obten consejos para mejorar!</string>
+    <string name="descripción_libros">Conocimiento ilimitado a tu disposición</string>
+    <string name="descripción_tipos">Diferentes tipos de ganadería</string>
+    <string name="descripción_razas">Averigua las razas de animales de ganadería</string>
 </resources>
