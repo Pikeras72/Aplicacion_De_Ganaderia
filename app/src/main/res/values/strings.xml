@@ -2,6 +2,7 @@
     <string name="app_name">info_ganaderia</string>
     <string name="btn_txt_iniciar_sesion">Iniciar Sesión</string>
     <string name="btn_txt_registrarse">Registrarse</string>
+    <string name="btn_txt_cerrar_sesion">Cerrar Sesión</string>
     <string name="btn_noticias">Noticias</string>
     <string name="btn_tipos">Tipos de ganadería</string>
     <string name="btn_consejos">Consejos</string>

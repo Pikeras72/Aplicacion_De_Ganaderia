@@ -16,6 +16,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <Button
+            android:id="@+id/cerrarSesionPantalla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="cerrarSesion"
+            android:text="@string/btn_txt_cerrar_sesion"
+            android:visibility="gone" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -23,19 +31,25 @@
 
             <Button
                 android:id="@+id/iniciarSesionPantalla"
+                style="@android:style/Widget.Button.Inset"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="irAIniciarSesion"
-                android:text="@string/btn_txt_iniciar_sesion" />
+                android:text="@string/btn_txt_iniciar_sesion"
+                android:textColor="#FAF9F9"
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/registrarPantalla"
+                style="@android:style/Widget.Button.Inset"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="irARegistrarse"
-                android:text="@string/btn_txt_registrarse" />
+                android:text="@string/btn_txt_registrarse"
+                android:textColor="#FAF7F7"
+                android:textSize="20sp" />
 
         </LinearLayout>
 
@@ -312,6 +326,7 @@
                                 android:id="@+id/button"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:onClick="irALibros"
                                 android:text="@string/btn_libros" />
 
                         </LinearLayout>
